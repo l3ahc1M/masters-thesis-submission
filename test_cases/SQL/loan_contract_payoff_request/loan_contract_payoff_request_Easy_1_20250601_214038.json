@@ -1,0 +1,6 @@
+{
+  "input": "Could you tell me how many loan contract payoff requests there are in total?",
+  "output": {
+    "sql": "SELECT COUNT(*) FROM LoanContractPayoffRequest;"
+  }
+}

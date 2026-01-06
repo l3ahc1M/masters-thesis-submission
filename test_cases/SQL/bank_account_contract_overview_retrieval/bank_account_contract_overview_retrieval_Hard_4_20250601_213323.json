@@ -1,0 +1,6 @@
+{
+  "input": "Can you provide me with the UUIDs of all the active bank account contracts that belong to a certain product type?",
+  "output": {
+    "sql": "SELECT UUID FROM BankAccountContract WHERE LifeCycleStatusName = 'Active' AND Product = 'specific_product_type';"
+  }
+}

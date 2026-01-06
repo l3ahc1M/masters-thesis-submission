@@ -1,0 +1,13 @@
+numpy==1.26.4
+chromadb==0.5.0
+xai_sdk
+openai
+dotenv
+langchain_text_splitters
+onxruntime==1.14.1
+tiktoken
+hashlib
+pandas
+posthog==5.4.0
+sqlite3
+pathlib

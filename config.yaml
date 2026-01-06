@@ -1,0 +1,19 @@
+embedding:
+    chroma_persist_directory: chroma_db_8000_800
+    openAI_embedding_model: text-embedding-3-small # allowed values: "text-embedding-3-small", "text-embedding-3-large" , ...(further openAI modesl)
+    max_chunk_size: 8000 # max tokens per chunk
+    chunk_overlap: 800 # overlap tokens between chunks
+    top_n_entries: 1
+system_documentation:
+    source_folder: system_documentation # possible values: "system_documentation_copy", "system_documentation"
+test_cases:
+    source_folder: test_cases_copy # possible values: "test_cases_copy", "test_cases"
+llm:
+    provider: openAI # allowed values: "openAI", "xai"
+    openAI_model: gpt-5 # should not be changed
+    xai_model: grok-4 # should not be changed
+
+process_orchestration:
+    rag_framework: RAG  # allowed values: "RAG", "SelfRAG", "CoRAG"
+    knowledge_basis: none # allowed values: "all", "DB", "API", "none"
+

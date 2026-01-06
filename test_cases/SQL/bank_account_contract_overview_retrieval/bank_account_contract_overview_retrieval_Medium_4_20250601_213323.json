@@ -1,0 +1,6 @@
+{
+  "input": "Can you give me the UUIDs of loan contracts for a particular borrower?",
+  "output": {
+    "sql": "SELECT UUID FROM BankAccountContract WHERE TypeName = 'Loan Contract' AND BorrowerPartyIdentifyingElements = 'specific_borrower_id';"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "input": "How many requests have we received to cancel bank account contracts?",
+  "output": {
+    "sql": "SELECT COUNT(*) FROM BankAccountContractCancelRequest;"
+  }
+}

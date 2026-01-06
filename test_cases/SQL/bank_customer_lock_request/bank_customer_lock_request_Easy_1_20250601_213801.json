@@ -1,0 +1,6 @@
+{
+  "input": "Could you please provide the details of the bank customer lock request that has the ID 105?",
+  "output": {
+    "sql": "SELECT * FROM BankCustomerLockRequest WHERE ID = '105';"
+  }
+}

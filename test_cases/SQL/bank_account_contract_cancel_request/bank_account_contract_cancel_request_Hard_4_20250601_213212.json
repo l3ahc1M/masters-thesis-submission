@@ -1,0 +1,6 @@
+{
+  "input": "Can you find out how many requests there are to cancel bank account contracts, and break it down by their current lifecycle status?",
+  "output": {
+    "sql": "SELECT LifeCycleStatusName, COUNT(*) FROM BankAccountContractCancelRequest GROUP BY LifeCycleStatusName;"
+  }
+}

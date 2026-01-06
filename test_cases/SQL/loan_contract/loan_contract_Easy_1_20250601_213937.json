@@ -1,0 +1,6 @@
+{
+  "input": "How many loan contracts are currently active?",
+  "output": {
+    "sql": "SELECT COUNT(*) FROM LoanContract WHERE LifeCycleStatusCode = '2';"
+  }
+}

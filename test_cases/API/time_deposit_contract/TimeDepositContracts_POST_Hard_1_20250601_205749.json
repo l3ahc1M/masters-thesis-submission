@@ -1,0 +1,17 @@
+{
+  "input": "I want to set up a time deposit contract with a transaction limit of 1000 euros. The account ID is 54321, and I’d like it to be active.",
+  "output": {
+    "method": "POST",
+    "endpoint": "/TimeDepositContracts",
+    "body": {
+      "ID": "54321",
+      "CurrencyCode": "EUR",
+      "LifeCycleStatusCode": "2",
+      "BankAccountEntryBalanceBasedRestrictions": [
+        {
+          "transactionThreshold": 1000
+        }
+      ]
+    }
+  }
+}
